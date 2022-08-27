@@ -26,7 +26,7 @@ api m ps obj = ask >>= \env -> do
     , HC.requestBody = maybe mempty (HC.RequestBodyLBS . encode) obj
     , HC.requestHeaders =
       [ ("Authorization", "Bot " <> T.encodeUtf8 (getToken env))
-      , ("User-Agent", "discord-vc-notification")
+      , ("User-Agent", "Voicenotification")
       , ("Content-Type", "application/json")
       ]
     }
@@ -47,8 +47,8 @@ identify = do
       [ "token" .= token
       , "properties" .= object
         [ "$os" .= T.pack "linux"
-        , "$browser" .= T.pack "discord-vc-notification"
-        , "$device" .= T.pack "discord-vc-notification"
+        , "$browser" .= T.pack "Voicenotification"
+        , "$device" .= T.pack "Voicenotification"
         ]
       , "compress" .= False
       , "large_threshold" .= (250 :: Int)
