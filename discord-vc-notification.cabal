@@ -1,9 +1,9 @@
 cabal-version:  2.4
 name:           discord-vc-notification
 version:        0.1.0.0
-description:    Please see the README on Github at <https://github.com/fumieval/discord-vc-notification#readme>
-homepage:       https://github.com/fumieval/discord-vc-notification#readme
-bug-reports:    https://github.com/fumieval/discord-vc-notification/issues
+description:    Please see the README on Github at <https://github.com/thasmoothness/discord-vc-notification#readme>
+homepage:       https://github.com/thasmoothness/discord-vc-notification#readme
+bug-reports:    https://github.com/thasmoothness/discord-vc-notification/issues
 author:         Fumiaki Kinoshita
 maintainer:     fumiexcel@gmail.com
 copyright:      Copyright (c) 2017 Fumiaki Kinoshita
@@ -15,7 +15,7 @@ extra-source-files:
 
 source-repository head
   type: git
-  location: https://github.com/fumieval/discord-vc-notification
+  location: https://github.com/thasmoothness/discord-vc-notification
 
 executable discord-vc-notification
   main-is: Main.hs
